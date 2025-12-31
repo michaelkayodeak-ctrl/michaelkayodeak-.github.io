@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Michael Adekunle Kayode</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            animation: fadeIn 1s ease-in;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .tagline {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+
+        .content {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: slideUp 0.8s ease-out;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 10px;
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+
+        .capabilities-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .capabilities-list li {
+            padding: 12px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .capabilities-list li:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+
+
+        .cta {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .cta h2 {
+            color: white;
+            border-bottom: none;
+        }
+
+        .cta-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 40px;
+            background: white;
+            color: #4facfe;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Hello, It's Michael Adekunle Kayode</h1>
+            <p class="tagline">Your typical student</p>
+        </header>
+
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>I'm Michael Adekunle Kayode, a student at Bowen University. I'm passionate about technology, programming, and solving real-world problems through innovative solutions. I am eager to learn more about programming and software development.</p>
+                
+            </div>
+
+            <div class="section">
+                <h2>What I Can Do</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>Phyton programming</h3>
+                        <p>Im a little good at python programming i guess</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>web development</h3>
+                        <p>Im not really good at that but im good at editting code for that.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Java</h3>
+                        <p>Not good at it but started learning it some days ago.   It's funn!!!!</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Sql</h3>
+                        <p>Im also learnig that. im thinking that is the path i want to go.</p>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>My aim</h2>
+                <ul class="capabilities-list">
+                    <li> To be able to focus on a programming language and learn it properly .</li>
+                    <li> To be able to work on a project and finish it.</li>
+                    <li><strong>I want to be able to do things that will aid my growth such as going to hackathons.</li>
+                    
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Hobbies</h2>
+                <ul class="capabilities-list">
+                    <li> Reading books, especially fiction and technology-related topics.</li>
+                    <li> Playing video games to unwind and have fun.</li>
+                    <li> Exploring new programming languages and tools.</li>
+                    <li> Listening to music, particularly lo-fi and instrumental tracks.</li>
+                
+                </ul>
+            </div>
+
+            
+
+        <footer>
+            <p>&copy; Michael.   BU23SEN1026</p>
+        </footer>
+    </div>
+</body>
+</html>
